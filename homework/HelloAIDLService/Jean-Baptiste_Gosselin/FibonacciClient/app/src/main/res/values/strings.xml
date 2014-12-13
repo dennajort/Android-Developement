@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FibonacciClient</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="radioButtonJIText">Java iterative</string>
+    <string name="radioButtonJRText">Java recursive</string>
+    <string name="radioButtonNIText">Native iterative</string>
+    <string name="radioButtonNRText">Native recursive</string>
+    <string name="startButtonText">Start</string>
+
+</resources>

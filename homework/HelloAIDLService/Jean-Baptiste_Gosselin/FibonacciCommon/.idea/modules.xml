@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FibonacciCommon.iml" filepath="$PROJECT_DIR$/FibonacciCommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fibonaccicommon/fibonaccicommon.iml" filepath="$PROJECT_DIR$/fibonaccicommon/fibonaccicommon.iml" />
+    </modules>
+  </component>
+</project>
+
