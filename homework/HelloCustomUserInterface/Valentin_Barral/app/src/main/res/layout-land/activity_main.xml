@@ -10,13 +10,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/button"
-            android:background="@drawable/Phone" />
+            android:background="@drawable/phone" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/button2"
-            android:background="@drawable/Youtube" />
+            android:background="@drawable/youtube" />
 
     </LinearLayout>
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -27,13 +27,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/button3"
-            android:background="@drawable/Instagram" />
+            android:background="@drawable/instagram" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/button4"
-            android:background="@drawable/Magpic" />
+            android:background="@drawable/magpic" />
 
     </LinearLayout>
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -59,7 +59,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/button6"
-            android:background="@drawable/Playback" />
+            android:background="@drawable/playback" />
 
         <Button
             android:layout_width="wrap_content"
