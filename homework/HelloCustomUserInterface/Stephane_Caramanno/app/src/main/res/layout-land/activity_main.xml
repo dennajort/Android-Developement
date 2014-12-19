@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ecf0f1"
+    android:orientation="vertical">
+
+    <LinearLayout android:layout_weight="1" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/youtube"
+            android:layout_weight="1"
+            android:padding="3dp"
+            android:clickable="true"
+            android:onClick="imageToastClick"
+            android:tag="Youtube"
+        />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/skype"
+            android:layout_weight="1"
+            android:padding="3dp"
+            android:clickable="true"
+            android:onClick="imageToastClick"
+            android:tag="Skype"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/facebook"
+            android:layout_weight="1"
+            android:padding="3dp"
+            android:clickable="true"
+            android:onClick="imageToastClick"
+            android:tag="Facebook"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/google"
+            android:layout_weight="1"
+            android:padding="3dp"
+            android:clickable="true"
+            android:onClick="imageToastClick"
+            android:tag="Google+"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_weight="1" android:layout_width="match_parent" android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/android"
+            android:layout_weight="1"
+            android:padding="3dp"
+            android:clickable="true"
+            android:onClick="imageToastClick"
+            android:tag="Android"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/dribbble"
+            android:layout_weight="1.5"
+            android:padding="3dp"
+            android:clickable="true"
+            android:onClick="imageToastClick"
+            android:tag="Dribbble"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/twitter"
+            android:layout_weight="1.5"
+            android:padding="3dp"
+            android:clickable="true"
+            android:onClick="imageToastClick"
+            android:tag="Twitter"
+            />
+
+    </LinearLayout>
+</LinearLayout>
