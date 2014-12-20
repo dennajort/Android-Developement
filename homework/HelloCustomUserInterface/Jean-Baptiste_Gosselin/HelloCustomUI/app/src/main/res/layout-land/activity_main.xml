@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#3498db"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp" android:layout_weight="1"
+        android:paddingBottom="@dimen/activity_vertical_margin">
+
+        <ImageView
+            android:id="@+id/callButton"
+            android:src="@drawable/phone"
+            android:contentDescription="@string/callDesc"
+            android:onClick="showToast"
+            android:adjustViewBounds="true"
+            android:layout_height="match_parent" android:layout_width="wrap_content" />
+
+        <ImageView
+            android:id="@+id/lockButton"
+            android:src="@drawable/power_lock"
+            android:contentDescription="@string/lockDesc"
+            android:onClick="showToast"
+            android:layout_alignParentRight="true" android:layout_alignParentEnd="true"
+            android:adjustViewBounds="true"
+            android:layout_height="match_parent" android:layout_width="wrap_content" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:layout_height="0dp" android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/timeButton"
+            android:background="@color/material_blue_grey_950"
+            android:contentDescription="@string/timeDesc"
+            android:onClick="showToast"
+            android:layout_width="match_parent" android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:layout_height="0dp" android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/messageButton"
+            android:src="@drawable/message"
+            android:contentDescription="@string/messageDesc"
+            android:onClick="showToast"
+            android:adjustViewBounds="true"
+            android:layout_width="wrap_content" android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/instagramButton"
+            android:src="@drawable/instagram"
+            android:contentDescription="@string/instagramDesc"
+            android:onClick="showToast"
+            android:adjustViewBounds="true"
+            android:layout_width="wrap_content" android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/ieButton"
+            android:src="@drawable/ie"
+            android:contentDescription="@string/ieDesc"
+            android:onClick="showToast"
+            android:adjustViewBounds="true"
+            android:layout_width="wrap_content" android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/musicButton"
+            android:src="@drawable/music"
+            android:contentDescription="@string/musicDesc"
+            android:onClick="showToast"
+            android:adjustViewBounds="true"
+            android:layout_width="wrap_content" android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</LinearLayout>
