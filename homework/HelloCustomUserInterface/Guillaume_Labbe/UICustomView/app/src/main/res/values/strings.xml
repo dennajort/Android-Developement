@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UICustomView</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="consult">consult</string>
+    <string name="screen">screen</string>
+    <string name="chat">chat</string>
+    <string name="space">space</string>
+    <string name="web">web</string>
+    <string name="movies">movies</string>
+    <string name="media">media</string>
+
+</resources>

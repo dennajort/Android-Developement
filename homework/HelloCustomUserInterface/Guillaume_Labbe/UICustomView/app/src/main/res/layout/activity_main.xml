@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="2">
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="2dp">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="fitCenter"
+                android:id="@+id/img1"
+                android:clickable="true"
+                android:onClick="onClickItem"
+                android:src="@drawable/consult"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/consult"
+                android:id="@+id/text1"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"
+                android:clickable="true"
+                android:onClick="clickFood"
+                android:background="@drawable/gradient"
+                android:layout_gravity="left|bottom" />
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="4dp">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="fitCenter"
+                android:id="@+id/img2"
+                android:clickable="true"
+                android:onClick="onClickItem"
+                android:src="@drawable/ecran"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/screen"
+                android:textColor="#FFFFFF"
+                android:id="@+id/text2"
+                android:clickable="true"
+                android:onClick="clickRecipe"
+                android:padding="5dp"
+                android:background="@drawable/gradient"
+                android:layout_gravity="left|bottom" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.6"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:id="@+id/img3"
+            android:layout_height="fill_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/media"
+            android:layout_weight="1"
+            android:onClick="onClickItem"
+            android:clickable="true"
+            />
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/chat"
+            android:padding="5dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/gradient"
+            android:id="@+id/text3"
+            android:gravity="center"
+            android:layout_gravity="bottom" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="2">
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="2dp">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="fitCenter"
+                android:id="@+id/img4"
+                android:clickable="true"
+                android:onClick="onClickItem"
+                android:src="@drawable/space"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/space"
+                android:id="@+id/text4"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"
+                android:clickable="true"
+                android:onClick="clickFood"
+                android:background="@drawable/gradient"
+                android:layout_gravity="left|bottom" />
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="4dp">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="fitCenter"
+                android:id="@+id/img5"
+                android:clickable="true"
+                android:onClick="onClickItem"
+                android:src="@drawable/web"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/web"
+                android:textColor="#FFFFFF"
+                android:id="@+id/text5"
+                android:clickable="true"
+                android:onClick="clickRecipe"
+                android:padding="5dp"
+                android:background="@drawable/gradient"
+                android:layout_gravity="left|bottom" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="2">
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="2dp">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="fitCenter"
+                android:id="@+id/img6"
+                android:clickable="true"
+                android:onClick="onClickItem"
+                android:src="@drawable/film"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/movies"
+                android:id="@+id/text6"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"
+                android:clickable="true"
+                android:onClick="clickFood"
+                android:background="@drawable/gradient"
+                android:layout_gravity="left|bottom" />
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="4dp">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="fitCenter"
+                android:id="@+id/img7"
+                android:clickable="true"
+                android:onClick="onClickItem"
+                android:src="@drawable/media"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/media"
+                android:textColor="#FFFFFF"
+                android:id="@+id/text7"
+                android:clickable="true"
+                android:onClick="clickRecipe"
+                android:padding="5dp"
+                android:background="@drawable/gradient"
+                android:layout_gravity="left|bottom" />
+
+        </FrameLayout>
+    </LinearLayout>
+    
+</LinearLayout>
